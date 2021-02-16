@@ -1,0 +1,106 @@
+
+.nav{
+    background-color:#c0c0c0 ;
+}
+body {
+    background-image:url("https://img.freepik.com/vetores-gratis/fundo-abstrato-gradiente-cinza-e-branco_53876-60238.jpg?size=338&ext=jpg" );
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lancamentos h1 
+{
+    font-family: x-locale-heading-primary,zillaslab,Palatino,"Palatino Linotype",x-locale-heading-secondary,serif;
+    font-size: 42px;
+    font-size: 2.33333rem;
+    text-align: center;
+    color:#173d58;
+
+
+}
+
+
+.lancamentos h2 
+{
+    text-align:justify;
+    font-size: 25px;
+     color:#4b535a;
+     font-style: oblique;
+
+}
+
+
+.filme{
+    padding: 20px;
+
+   
+}
+
+.destaque , .avaliacao, .entrevistasemo, .novidades,.sobre{
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 20px;
+   
+    
+}
+.destaque-head{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.destaque-head  select{
+    min-width: 300px;
+
+}
+.foto {
+    min-height: 300px;
+    height: 100%;
+    width: 100%;
+}
+.botaorodape {
+    padding-top: 20px;
+    text-align: end;
+
+
+}
+#cardDest{
+    margin-left: 2%;
+    
+}
+.persona{
+
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+
+}
+
+.final{
+    text-align: center;
+    background-color:#c0c0c0 ;
+
+}
+.incons{
+    font-size: 3.0em;
+    
+}
+
+
+
+/*star rating*/
+
+.estrelas input[type=radio] {
+  display: none;
+}
+.estrelas label i.fa{
+  font-size: 1.3em
+}
+.estrelas label i.fa:before {
+  content:'\f005';
+  color: #FC0;
+}
+.estrelas input[type=radio]:checked ~ label i.fa:before {
+  color: #CCC;
+}
+
